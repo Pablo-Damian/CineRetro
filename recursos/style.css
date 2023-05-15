@@ -1,0 +1,135 @@
+/*Fuente "Roboto" desde Google Fonts*/
+body {
+  font-family: 'Roboto', serif;
+  margin: 0px;
+
+}
+
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: auto;
+  margin-top: 3px;
+}
+
+/*Diseño general de las páginas*/
+/* Menú de navegación */
+#nav {
+  /*margin: 15px;*/
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 90px;
+  background-color: #FF9D1F;
+}
+
+/*Centrar el texto del encabezado y del pie*/
+ul {
+  margin: auto 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Iframe con video de Youtube ajustado (el borde) al ancho de la página*/
+iframe {
+  width: 97.2%;
+  /*margin: 15px;*/
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+/*Edición del menú/lista del encabezado y del pie*/
+#nav li,
+#pie li {
+  list-style: none;
+  float: left;
+  width: auto;
+  margin: 32px 0 0 0;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Para centrar el "logo" de la página*/
+#logo {
+  float: left;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+/*y de las redes*/
+#logoredes {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+/*Imágenes del "cuerpo" de la página*/
+#cuerpo {
+  width: 955px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.articulo {
+  width: 220px;
+  height: 450px;
+  float: left;
+  /*margin: 0px;*/
+  padding: 8px;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+/*Borde de rectángulo redondeado para cada imagen*/
+.marco {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+/*Mostrar "sombra" al pasar el puntero sobre la imagen*/
+.marco:hover {
+  box-shadow: 5px 5px 2px #999;
+}
+
+/*Centra el texto de cada imagen*/
+h4 {
+  text-align: center;
+}
+
+/*Pie de la página*/
+#pie {
+  height: 100px;
+  background-color: #2a2c32;
+  color: white;
+  margin: 15px;
+}
+
+/*Configuración general para acomodar correctamente el texto*/
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2px;
+
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2px;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2px;
+}
